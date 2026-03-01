@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="post">
+	<header class="major">
+		<h2>{{ page.title }}</h2>
+		<p class="post-meta">
+			<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+			{% if page.tags %}
+			&nbsp;&middot;&nbsp;
+			{% for tag in page.tags %}<span class="tag">{{ tag }}</span> {% endfor %}
+			{% endif %}
+		</p>
+	</header>
+
+	{% if page.image %}
+	<div class="post-hero-image">
+		<img src="{{ page.image }}" alt="{{ page.title }}" />
+	</div>
+	{% endif %}
+
+	<div class="post-content">
+		{{ content }}
+	</div>
+
+	<div class="post-footer-nav">
+		<a href="{{ '/mountaineering/' | relative_url }}" class="button">&larr; All Adventures</a>
+	</div>
+</article>

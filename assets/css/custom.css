@@ -1,0 +1,269 @@
+/* =============================================================
+   Sidebar Navigation
+   ============================================================= */
+
+#header nav {
+	margin-top: 1.5em;
+}
+
+#header nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+
+#header nav ul li {
+	margin: 0.55em 0;
+}
+
+#header nav ul li a {
+	font-size: 0.75em;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.55);
+	text-decoration: none;
+	border-bottom: none;
+	transition: color 0.2s ease;
+}
+
+#header nav ul li a:hover {
+	color: #fff;
+}
+
+/* =============================================================
+   Software Cards
+   ============================================================= */
+
+.software-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	gap: 1.2em;
+	margin: 1.5em 0 2em;
+}
+
+.software-card {
+	background: #f8f9fa;
+	border: 1px solid #e4e7eb;
+	border-radius: 5px;
+	padding: 1.1em 1.3em;
+	transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.software-card:hover {
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+	border-color: #c8d0db;
+}
+
+.software-card h4 {
+	margin: 0 0 0.5em;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.software-card h4 a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.software-card h4 a:hover {
+	color: #18bfef;
+}
+
+.software-card p {
+	font-size: 0.85em;
+	color: #666;
+	margin: 0 0 0.75em;
+	line-height: 1.55;
+}
+
+.software-card .tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3em;
+}
+
+.software-card .tags span {
+	background: #e8f4fd;
+	color: #2d7dd2;
+	font-size: 0.72em;
+	font-weight: 600;
+	padding: 0.2em 0.55em;
+	border-radius: 3px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+/* =============================================================
+   Abstract Toggles (add <details class="abstract"> inside any <li>)
+   ============================================================= */
+
+details.abstract {
+	margin-top: 0.45em;
+}
+
+details.abstract summary {
+	cursor: pointer;
+	color: #aaa;
+	font-size: 0.8em;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	user-select: none;
+	display: inline-block;
+	transition: color 0.15s ease;
+}
+
+details.abstract summary:hover {
+	color: #555;
+}
+
+details.abstract p {
+	margin: 0.6em 0 0;
+	font-size: 0.87em;
+	color: #666;
+	line-height: 1.65;
+	border-left: 3px solid #e0e0e0;
+	padding-left: 0.9em;
+}
+
+/* =============================================================
+   Blog Post Layout
+   ============================================================= */
+
+.post-meta {
+	color: #aaa;
+	font-size: 0.85em;
+	margin: -0.3em 0 1.5em;
+}
+
+.post-meta .tag {
+	background: #e8f4fd;
+	color: #2d7dd2;
+	font-size: 0.8em;
+	padding: 0.15em 0.5em;
+	border-radius: 3px;
+	margin-left: 0.2em;
+}
+
+.post-hero-image {
+	margin-bottom: 1.8em;
+}
+
+.post-hero-image img {
+	width: 100%;
+	max-height: 420px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.post-content {
+	line-height: 1.85;
+}
+
+.post-content img {
+	max-width: 100%;
+	border-radius: 4px;
+	margin: 1.2em 0;
+}
+
+.post-content h3 {
+	margin-top: 1.8em;
+}
+
+.post-footer-nav {
+	margin-top: 2.5em;
+	padding-top: 1.5em;
+	border-top: 1px solid #f0f0f0;
+}
+
+/* =============================================================
+   Mountaineering Blog Listing
+   ============================================================= */
+
+.post-list {
+	list-style: none;
+	padding: 0;
+	margin: 1.5em 0 0;
+}
+
+.post-list-item {
+	display: flex;
+	gap: 1.5em;
+	padding: 1.5em 0;
+	border-bottom: 1px solid #f0f0f0;
+	align-items: flex-start;
+}
+
+.post-list-item:last-child {
+	border-bottom: none;
+}
+
+.post-list-thumb {
+	width: 130px;
+	height: 88px;
+	flex-shrink: 0;
+	overflow: hidden;
+	border-radius: 4px;
+	display: block;
+}
+
+.post-list-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: opacity 0.2s ease;
+}
+
+.post-list-thumb:hover img {
+	opacity: 0.85;
+}
+
+.post-list-body h3 {
+	margin: 0 0 0.25em;
+	font-size: 1em;
+}
+
+.post-list-body h3 a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.post-list-body h3 a:hover {
+	color: #18bfef;
+}
+
+.post-list-meta {
+	font-size: 0.78em;
+	color: #bbb;
+	margin-bottom: 0.4em;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+.post-list-body p {
+	font-size: 0.87em;
+	color: #666;
+	margin: 0;
+	line-height: 1.55;
+}
+
+/* =============================================================
+   Responsive
+   ============================================================= */
+
+@media (max-width: 600px) {
+	.post-list-item {
+		flex-direction: column;
+	}
+
+	.post-list-thumb {
+		width: 100%;
+		height: 180px;
+	}
+
+	.software-grid {
+		grid-template-columns: 1fr;
+	}
+}

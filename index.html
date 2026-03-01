@@ -1,218 +1,206 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="en">
-	<head>
-		<title>Chinmay Patwardhan - Mathematician - Researcher - Mountaineering enthusiast</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Chinmay Patwardhan — PhD student in Applied Mathematics at KIT, working on numerical algorithms for thermal radiative transfer and uncertainty quantification." />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+---
+layout: default
+title: Chinmay Patwardhan - Mathematician - Researcher - Mountaineering enthusiast
+description: "Chinmay Patwardhan — PhD student in Applied Mathematics at KIT, working on numerical algorithms for thermal radiative transfer and uncertainty quantification."
+---
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/IMG_0365_crop.jpg" alt="" /></a>
-					<h1><strong>Hallo, I am Chinmay Patwardhan!</strong> a mathematician,<br />
-					researcher, and mountaineering enthusiast. <br /></h1>
+<!-- One: About -->
+	<section id="one">
+		<header class="major">
+			<h2>About me</h2>
+		</header>
+		<p>I am a PhD student in Applied Mathematics currently working at the Karlsruhe Institute of Technology (KIT). I am part of the research groups <a href="https://www.waves.kit.edu/">Collaborative Research Center (CRC) 1173</a>,
+		funded by the Deutsche Forschungsgemeinschaft (DFG), and <a href="https://www.scc.kit.edu/en/aboutus/rg-csmm.php">Computational Science and Mathematical Methods (CSMM)</a>. My work is focused on developing computationally efficient numerical algorithms that capture varying behaviours of the thermal radiative transfer. Additionally, I also focus on developing new methods for quantifying uncertainties in these systems based on exploiting underlying structures.
+		I am committed to the idea of making scientific knowledge available to the public and one can find a selection of my publications, talks and software below.</p>
+		<ul class="actions">
+			<li><a href="CV_ChinmayPatwardhan.pdf" class="button">Curriculum Vitae</a></li>
+			<!-- Place CV_ChinmayPatwardhan.pdf in the root of this repository to activate the link above -->
+		</ul>
+	</section>
+
+<!-- Two: News -->
+	<section id="two">
+		<h2>News</h2>
+		<div class="row">
+			<article class="col-6 col-12-xsmall work-item">
+				<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="SIAM CSE 2025, Fort Worth" /></a>
+				<h3>March 03–07, 2025 — SIAM CSE 2025, USA</h3>
+				<p>I had the opportunity to attend and speak at SIAM CSE 2025 in Fort Worth, Texas — a fantastic gathering of experts in computational science and engineering. I presented "On Asymptotic-Preserving Dynamical Low-Rank Approximation for Thermal Radiative Transfer" and connected with many inspiring researchers pushing the boundaries of CSE.</p>
+			</article>
+			<article class="col-6 col-12-xsmall work-item">
+				<a href="images/thumbs/SciCAde_banner.png" class="image fit thumb"><img src="images/thumbs/SciCAde_banner.png" alt="SciCADE 2024, Singapore" /></a>
+				<h3>July 15–19, 2024 — SciCADE 2024, Singapore</h3>
+				<p>I travelled to Singapore to give a talk at <a href="https://www.scicade2024.org/">SciCADE 2024</a>. I presented "A multi-scale low-rank integrator for Marshak waves" — a great experience to learn about recent advances in differential equations and scientific computing.</p>
+			</article>
+			<article class="col-6 col-12-xsmall work-item">
+				<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="ICOSAHOM, Montreal" /></a>
+				<h3>2025 — ICOSAHOM, Montreal, Canada</h3>
+				<!-- TODO: add exact dates, e.g. "June 23–27, 2025" -->
+				<p>I attended ICOSAHOM (International Conference on Spectral and High Order Methods) in Montreal, Canada. A great opportunity to present my work and discuss the latest developments in spectral and high-order numerical methods with the community.</p>
+			</article>
+			<article class="col-6 col-12-xsmall work-item">
+				<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="ENUMATH, Heidelberg" /></a>
+				<h3>2025 — ENUMATH, Heidelberg, Germany</h3>
+				<!-- TODO: add exact dates -->
+				<p>I attended ENUMATH (European Conference on Numerical Mathematics and Advanced Applications) in Heidelberg, Germany — a leading European forum for numerical analysis and scientific computing, bringing together researchers from across the continent.</p>
+			</article>
+		</div>
+	</section>
+
+<!-- Three: Publications -->
+	<section id="three">
+		<h2>Publications</h2>
+		<!--
+		To add a collapsible abstract to any publication, insert the following inside the <li>:
+
+		<details class="abstract">
+		    <summary>Abstract</summary>
+		    <p>Your abstract text here.</p>
+		</details>
+		-->
+
+		<h4>2025</h4>
+		<ul>
+			<li>A Parallel, Energy-Stable Low-Rank Integrator for Nonlinear Multi-Scale Thermal Radiative Transfer<br/>
+				<b><u>Chinmay Patwardhan</u> and Jonas Kusch</b><br/>
+				<i><a href="www.tandfonline.com/doi/full/10.1080/23324309.2026.2618786">Journal of Computational and Theoretical Transport</a></i>
+				<a href="https://github.com/chinsp/publication-parallel-AP-DLRA-for-non-linear-TRT"
+				   class="icon brands fa-github"><span class="label">Github</span></a>
+			</li>
+			<li>Low-rank variance reduction for uncertain radiative transfer with control variates<br/>
+				<b><u>Chinmay Patwardhan</u>, Pia Stammer, Emil Løvbak, Jonas Kusch and Sebastian Krumscheid</b><br/>
+				<i><a href="https://arxiv.org/abs/2501.06125">https://arxiv.org/abs/2501.06125</a></i>
+				<a href="https://github.com/chinsp/publication-Low-rank-for-uncertain-radiative-transfer"
+				   class="icon brands fa-github"><span class="label">Github</span></a>
+			</li>
+		</ul>
+
+		<h4>2024</h4>
+		<ul>
+			<li>Asymptotic-preserving and energy stable dynamical low-rank approximation for thermal radiative transfer equations<br/>
+				<b>Martin Frank, Jonas Kusch and <u>Chinmay Patwardhan</u></b><br/>
+				<i><a href="https://epubs.siam.org/doi/full/10.1137/24M1646303">Multiscale Modeling &amp; Simulation</a></i>
+				<a href="https://github.com/chinsp/publication-Asymptotic-preserving-and-energy-stable-DLRA-for-thermal-radiative-transfer-equations"
+				   class="icon brands fa-github"><span class="label">Github</span></a>
+			</li>
+		</ul>
+
+		<h4>2021</h4>
+		<ul>
+			<li>ILORA: A database of alien vascular flora of India<br/>
+				<b>Vidushi Pant, <u>Chinmay Patwardhan</u>, Kshitij Pant, Amiya Ranjan Bhowmick, Abhishek Mukherjee and Achyut Kumar Banerjee</b><br/>
+				<i><a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.12105">Wiley: Ecological Solutions and Evidence</a></i>
+			</li>
+			<li>An integrated policy framework and plan of action to prevent and control plant invasions in India<br/>
+				<b>Achyut Kumar Banerjee, Anzar Ahmad Khuroo, Kathrina Dehnen-Schmutz, Vidshi Pant, <u>Chinmay Patwardhan</u>, Amiya Ranjan Bhowmick and Abhishek Mukherjee</b><br/>
+				<i><a href="https://www.sciencedirect.com/science/article/pii/S1462901121001635?via%3Dihub">Environmental Science and Policy</a></i>
+			</li>
+		</ul>
+	</section>
+
+<!-- Software -->
+	<section id="software">
+		<h2>Open Source Software</h2>
+		<p>Code associated with my publications is openly available on <a href="https://github.com/chinsp">GitHub</a>. Each repository contains the full source code and instructions to reproduce the results of the corresponding paper.</p>
+		<div class="software-grid">
+			<div class="software-card">
+				<h4><a href="https://github.com/chinsp/publication-parallel-AP-DLRA-for-non-linear-TRT">
+					<span class="icon brands fa-github"></span>&nbsp;parallel-AP-DLRA-TRT
+				</a></h4>
+				<p>Parallel, energy-stable low-rank integrator for nonlinear multi-scale thermal radiative transfer.</p>
+				<div class="tags">
+					<span>Julia</span><span>Radiative Transfer</span><span>DLRA</span>
 				</div>
-			</header>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About me</h2>
-						</header>
-						<p>I am a PhD student in Applied Mathematics currently working at the Karlsruhe Institute of Technology (KIT). I am part of the research groups <a href = "https://www.waves.kit.edu/">Collaborative Research Center (CRC) 1173</a>,
-						funded by the Deutsche Forschungsgemeinschaft (DFG), and <a href="https://www.scc.kit.edu/en/aboutus/rg-csmm.php">Computational Science and Mathematical Methods (CSMM)</a>. My work is focused on developing computationally efficient numerical algorithms that capture varying behaviours of the thermal radiative transfer. Additionally, I also focus on developing new methods for quantifying uncertainties in these systems based on exploiting underlying structures.
-						I am committed to the idea of making scientific knowledge available to the public and one can find a selection of my publications, talks and software below.</p>
-						<!-- <ul class="actions">
-							<li><a href="CV_ChinmayPatwardhan.pdf" class="button">Curriculum Vitae</a></li>
-						</ul> -->
-					</section>
-
-				<!-- Two -->
-					<section id="two">
-						<h2>News</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/fulls/01.jpg" alt="" /></a>
-								<h3>March 03, 2025 - March 07, 2025 - SIAM CSE 2025, USA</h3>
-								<p>I had the opportunity to attend and speak at SIAM CSE 2025 in Fort Worth, Texas — a fantastic gathering of experts in computational science and engineering. It was an honor to present my talk, "On Asymptotic-Preserving Dynamical Low-Rank Approximation for Thermal Radiative Transfer", and to connect with so many inspiring researchers and practitioners pushing the boundaries of CSE. Looking forward to continued collaboration and future conversations!</p>
-								<!-- <a onclick="myFunction('1')" id="myBtn1">Read more</a> -->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/fulls/01.jpg" alt="" /></a>
-								<h3>July 15, 2024 - July 19, 2024 - SciCADE 2024, Singapore</h3>
-								<p>This July I travelled to Singapore to give a talk at the <a href="https://www.scicade2024.org/">SciCADE 2024</a>. I gave a talk titled "A multi-scale low-rank integrator for Marshak waves" which was well received by the audience and invited some interesting questions. It was a great experience to learn about the recent advances in the world of differential equations and scientific computing.</p>
-								<!-- <a onclick="myFunction('1')" id="myBtn1">Read more</a> -->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>March 18, 2024 - March 22, 2024 - 94th annual meeting GAMM</h3>
-								<p>This March I travelled to Magdeburg to give my first talk at the <a href="https://jahrestagung.gamm.org/annual-meeting-2024/94th-annual-meeting/">94th Annual Meeting of GAMM</a>. I gave a talk titled "Multi-scale low-rank approximation for radiative heat transfer" which was well received by the audience and invited some interesting questions. Even though I had to cut short the conference due to other obligations it was a great time discussing DLRA with young researchers from around the world.</p>
-								<!-- <a onclick="myFunction('1')" id="myBtn1">Read more</a> -->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>May 22, 2023 - May 24, 2023 - DLRA: New horizons workshop</h3>
-								<p>Together with my colleagues Pia Stammer and Steffen Schotthöfer, I travelled to Lausanne to attend the <a href="https://bernoulli.epfl.ch/dlranewh/index.html">"Dynamical low-rank approximation: New horizons"</a> workshop. The workshop provided a great platform and atmosphere for discussing the upcoming dynamical low-rank approximation. The cherry on top was the opportunity to speak with the authors of the first papers on the topic. I thank Jonas Kusch and Gianluca Cerutti, two excellent researchers on the topic, for organising this lovely workshop.</p> 	
-								<!-- <a onclick="myFunction('1')" id="myBtn1">Read more</a> -->
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
-				<section id="three">
-					<h2>Publications</h2>
-					<h4>2025</h4>
-					<ul>
-						<li>A Parallel, Energy-Stable Low-Rank Integrator for Nonlinear Multi-Scale Thermal Radiative Transfer <br/>
-							<b><u>Chinmay Patwardhan</u> and Jonas Kusch
-                            </b><br/>
-                            <i><a href="www.tandfonline.com/doi/full/10.1080/23324309.2026.2618786">Journal of Computational and Theoretical Transport  </a> </i>
-                            <a href="https://github.com/chinsp/publication-parallel-AP-DLRA-for-non-linear-TRT"
-                               class="icon brands fa-github"><span
-                                    class="label">Github</span></a>
-                        </li>
-						<li>Low-rank variance reduction for uncertain radiative transfer with control variates <br/>
-							<b><u>Chinmay Patwardhan</u>, Pia Stammer, Emil Løvbak, Jonas Kusch and Sebastian Krumscheid
-                            </b><br/>
-                            <i><a href="https://arxiv.org/abs/2501.06125">https://arxiv.org/abs/2501.06125</a> </i>
-                            <a href="https://github.com/chinsp/publication-Low-rank-for-uncertain-radiative-transfer"
-                               class="icon brands fa-github"><span
-                                    class="label">Github</span></a>
-                        </li>
-					</ul>
-					<h4>2024</h4>
-					<ul>
-						<li>Asymptotic-preserving and energy stable dynamical low-rank approximation for thermal radiative transfer equations<br/>
-                            <b>Martin Frank, Jonas Kusch and <u>Chinmay Patwardhan</u>
-                            </b><br/>
-                            <i><a href="https://epubs.siam.org/doi/full/10.1137/24M1646303"> Multiscale Modeling & Simulation  </a> </i>
-                            <a href="https://github.com/chinsp/publication-Asymptotic-preserving-and-energy-stable-DLRA-for-thermal-radiative-transfer-equations"
-                               class="icon brands fa-github"><span
-                                    class="label">Github</span></a>
-                        </li>
-					</ul>
-
-					<h4>2021</h4>
-					<ul>
-						<li>ILORA: A database of alien vascular flora of India<br/>
-							<b>Vidushi Pant, <u>Chinmay Patwardhan</u>, Kshitij Pant, Amiya Ranjan Bhowmick, Abhishek Mukherjee and Achyut Kumar Banerjee
-							</b><br/>
-							<i><a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.12105">Wiley: Ecological Solutions and Evidence</a> </i>
-						</li>
-
-						<li>An integrated policy framework and plan of action to prevent and control plant invasions in India<br/>
-							<b>Achyut Kumar Banerjee, Anzar Ahmad Khuroo, Kathrina Dehnen-Schmutz, Vidshi Pant, <u>Chinmay Patwardhan</u>, Amiya Ranjan Bhowmick and Abhishek Mukherjee.
-							</b><br/>
-							<i><a href="https://www.sciencedirect.com/science/article/pii/S1462901121001635?via%3Dihub">Environmental Science and Policy</a> </i>
-						</li>
-					</ul>
-				</section>
-
-				<section id="four">
-					<h2>Presentations</h2>
-					<h4>Conference Talks</h4>
-					<ul>
-						<li><b>March 2025, SIAM CSE 2025, USA</b><br/>
-                            Talk: On Asymptotic-Preserving Dynamical Low-Rank Approximation for Thermal Radiative Transfer
-                        </li>
-						<li><b>July 2024, SciCADE 2024, Singapore</b><br/>
-                            Talk: A multi-scale low-rank integrator for Marshak waves
-                        </li>
-                        <li><b>March 2024, 94th Annual Meeting GAMM, Magdeburg</b><br/>
-                            Minisymposium: New Perspectives for Model Order Reduction: Dynamical Low-rank Approximation<br/>
-                            Talk: Multi-scale low-rank simulation of radiative heat transfer
-                        </li>
-                    </ul>
-                    <hr/>
-                    <h4>Posters</h4>
-                    <ul>
-						<li><b>September 2023, MATHSEE Symposium, Karlsruhe</b><br/>
-                            Simulation of Marshak waves using dynamical low-rank approximation
-                        </li>
-						<li><b>April 2023, MMKT, Karlsruhe</b><br/>
-                            Adaptive stepsize dynamical low-rank approximation.
-                        </li>
-                    </ul>
-				</section>
-
-
-				<!-- Five -->
-					<section id="five">
-						<h2>Get In Touch</h2>
-						<p>To get in touch write me an email.</p>
-						<div class="row">
-							<!-- <div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div> -->
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Zirkel 2<br />
-										76131, Karlsruhe<br />
-										Building 20.21, R. 214
-									</li>
-									<!-- <li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li> -->
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:chinmay.patwardhan@kit.edu">chinmay.patwardhan@kit.edu</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-				
 			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<li><a href="https://github.com/chinsp" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!-- <li><a href="https://www.researchgate.net/profile/Chinmay-Patwardhan?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19" class="icon brands fa-researchgate"><span class="label">Research gate</span></a></li>
-						<li><a href="https://www.linkedin.com/in/chinmay-patwardhan-295775266/" class="icon brands fa-researchgate"><span class="label">LikedIn</span></a></li> -->
-						<li><a href="mailto:chinmay.patwardhan@kit.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Chinmay Patwardhan</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+			<div class="software-card">
+				<h4><a href="https://github.com/chinsp/publication-Low-rank-for-uncertain-radiative-transfer">
+					<span class="icon brands fa-github"></span>&nbsp;Low-rank-uncertain-RT
+				</a></h4>
+				<p>Low-rank variance reduction for uncertain radiative transfer using control variates.</p>
+				<div class="tags">
+					<span>Julia</span><span>UQ</span><span>Monte Carlo</span>
 				</div>
-			</footer>
+			</div>
+			<div class="software-card">
+				<h4><a href="https://github.com/chinsp/publication-Asymptotic-preserving-and-energy-stable-DLRA-for-thermal-radiative-transfer-equations">
+					<span class="icon brands fa-github"></span>&nbsp;AP-energy-stable-DLRA-TRT
+				</a></h4>
+				<p>Asymptotic-preserving and energy stable dynamical low-rank approximation for thermal radiative transfer equations.</p>
+				<div class="tags">
+					<span>Julia</span><span>DLRA</span><span>AP schemes</span>
+				</div>
+			</div>
+		</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<!-- Four: Presentations -->
+	<section id="four">
+		<h2>Presentations</h2>
+		<h4>Conference Talks</h4>
+		<ul>
+			<li><b>March 2025, SIAM CSE 2025, USA</b><br/>
+				Talk: On Asymptotic-Preserving Dynamical Low-Rank Approximation for Thermal Radiative Transfer
+			</li>
+			<li><b>July 2024, SciCADE 2024, Singapore</b><br/>
+				Talk: A multi-scale low-rank integrator for Marshak waves
+			</li>
+			<li><b>March 2024, 94th Annual Meeting GAMM, Magdeburg</b><br/>
+				Minisymposium: New Perspectives for Model Order Reduction: Dynamical Low-rank Approximation<br/>
+				Talk: Multi-scale low-rank simulation of radiative heat transfer
+			</li>
+		</ul>
+		<hr/>
+		<h4>Posters</h4>
+		<ul>
+			<li><b>September 2023, MATHSEE Symposium, Karlsruhe</b><br/>
+				Simulation of Marshak waves using dynamical low-rank approximation
+			</li>
+			<li><b>April 2023, MMKT, Karlsruhe</b><br/>
+				Adaptive stepsize dynamical low-rank approximation
+			</li>
+		</ul>
+	</section>
 
-	</body>
-</html>
+<!-- Mountaineering Teaser -->
+	<section id="mountaineering-teaser">
+		<h2>Mountaineering</h2>
+		<p>When not doing mathematics, I spend my time in the mountains. The Alps provide an endless playground for climbing, ski touring, and hiking — a welcome counterbalance to life at a desk. I document my trips on the adventures page.</p>
+		{% if site.posts.size > 0 %}
+		<div class="row">
+			{% for post in site.posts limit:2 %}
+			<article class="col-6 col-12-xsmall work-item">
+				{% if post.image %}
+				<a href="{{ post.url }}" class="image fit thumb"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
+				{% endif %}
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+			</article>
+			{% endfor %}
+		</div>
+		{% endif %}
+		<ul class="actions">
+			<li><a href="{{ '/mountaineering/' | relative_url }}" class="button">All Adventures</a></li>
+		</ul>
+	</section>
+
+<!-- Five: Contact -->
+	<section id="five">
+		<h2>Get In Touch</h2>
+		<p>To get in touch write me an email.</p>
+		<div class="row">
+			<div class="col-4 col-12-small">
+				<ul class="labeled-icons">
+					<li>
+						<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+						Zirkel 2<br />
+						76131, Karlsruhe<br />
+						Building 20.21, R. 214
+					</li>
+					<li>
+						<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+						<a href="mailto:chinmay.patwardhan@kit.edu">chinmay.patwardhan@kit.edu</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>

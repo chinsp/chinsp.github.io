@@ -1,0 +1,21 @@
+title: Chinmay Patwardhan
+email: chinmay.patwardhan@kit.edu
+description: >-
+  PhD student in Applied Mathematics at KIT, working on numerical algorithms
+  for thermal radiative transfer and uncertainty quantification.
+
+url: "https://chinsp.github.io"
+baseurl: ""
+
+author:
+  name: Chinmay Patwardhan
+  email: chinmay.patwardhan@kit.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /mountaineering/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
