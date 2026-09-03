@@ -250,6 +250,101 @@ details.abstract p {
 }
 
 /* =============================================================
+   Photo Slider (blog posts)
+   ============================================================= */
+
+.photo-slider {
+	position: relative;
+	margin: 2em 0;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #111;
+}
+
+.photo-slider-track {
+	display: flex;
+	transition: transform 0.4s ease;
+}
+
+.photo-slider-slide {
+	flex: 0 0 100%;
+}
+
+.photo-slider-slide img {
+	width: 100%;
+	height: 460px;
+	object-fit: cover;
+	display: block;
+}
+
+.photo-slider-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1em;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.2s ease;
+}
+
+.photo-slider-btn:hover {
+	background: rgba(0, 0, 0, 0.65);
+}
+
+.photo-slider-btn.prev {
+	left: 12px;
+}
+
+.photo-slider-btn.next {
+	right: 12px;
+}
+
+.photo-slider-dots {
+	position: absolute;
+	bottom: 12px;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	gap: 0.4em;
+}
+
+.photo-slider-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.5);
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+
+.photo-slider-dot.active {
+	background: #fff;
+}
+
+.photo-slider-counter {
+	position: absolute;
+	top: 12px;
+	right: 14px;
+	background: rgba(0, 0, 0, 0.45);
+	color: #fff;
+	font-size: 0.75em;
+	padding: 0.25em 0.6em;
+	border-radius: 3px;
+	letter-spacing: 0.04em;
+}
+
+/* =============================================================
    Responsive
    ============================================================= */
 
@@ -265,5 +360,9 @@ details.abstract p {
 
 	.software-grid {
 		grid-template-columns: 1fr;
+	}
+
+	.photo-slider-slide img {
+		height: 260px;
 	}
 }
